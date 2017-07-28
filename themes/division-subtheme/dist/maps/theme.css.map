@@ -1,0 +1,1 @@
+{"version":3,"sources":["theme.scss"],"names":[],"mappings":"AAAA,WACC,cAAe,AACf,mBAAuB,CACvB","file":"theme.css","sourcesContent":[".nav__logo{\n\twidth: rem-calc(150);\n\tmargin-bottom: rem-calc(9);\n}\n"],"sourceRoot":"/source/"}
