@@ -1,0 +1,18 @@
+.nav__logo{
+	width: rem-calc(150);
+	margin-bottom: rem-calc(5);
+}
+.nav__link--search{
+	
+		display: block;
+		line-height: inherit;
+	
+}
+
+.site-search__icon{
+	@include breakpoint(large) {
+		height: rem-calc(73);
+		top: 0;
+		right: 0;
+	}
+}
