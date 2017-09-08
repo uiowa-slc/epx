@@ -729,12 +729,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed.git",
-                "reference": "d24460a66932f729183c9386ae12ad01e3be0a16"
+                "reference": "6890805facdac9e52663f55188e51b0473eeb0ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/fbpagefeed/zipball/d24460a66932f729183c9386ae12ad01e3be0a16",
-                "reference": "d24460a66932f729183c9386ae12ad01e3be0a16",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/fbpagefeed/zipball/6890805facdac9e52663f55188e51b0473eeb0ee",
+                "reference": "6890805facdac9e52663f55188e51b0473eeb0ee",
                 "shasum": ""
             },
             "require": {
@@ -748,9 +748,9 @@
             "homepage": "https://github.com/olliepop/fbpagefeed",
             "support": {
                 "issues": "https://github.com/olliepop/fbpagefeed/issues",
-                "source": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed/tree/fb-sdk5.4"
+                "source": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed/tree/master"
             },
-            "time": "2017-04-18 16:51:55"
+            "time": "2017-09-08 19:41:49"
         },
         {
             "name": "onelogin/php-saml",
