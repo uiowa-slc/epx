@@ -41,11 +41,9 @@ class JournalIssue extends Page {
 	}
 
 	public function PreviousIssue() {
+		// debug::show($this->IsFirstIssue());
 		if($this->IsFirstIssue()){
-			$issue = JournalIssue::get()->filter(array(
-				'ClassName' => 'JournalIssue',
-				'ParentID' => $this->ParentID,
-			))->sort(array('Number DESC'))->First();
+			return false;
 		}else{
 
 			$issue = JournalIssue::get()->filter(array(
@@ -54,31 +52,21 @@ class JournalIssue extends Page {
 			))->sort('Number DESC')->First();
 		}
 
-		if($issue){
-			return $issue;
-		}else{
-			return false;
-		}
+		return $issue;
+		
 	}
 
 	public function NextIssue() {
 		if($this->IsLastIssue()){
-			$issue = JournalIssue::get()->filter(array(
-				'ClassName' => 'JournalIssue',
-				'ParentID' => $this->ParentID,
-			))->sort(array('Number DESC'))->Last();
+			return false;
 		}else{
 			$issue = JournalIssue::get()->filter(array(
 				'ParentID' => $this->ParentID,
 				'Number:GreaterThan' => $this->Number
 			))->sort('Number DESC')->Last();
 		}
-
-		if($issue){
-			return $issue;
-		}else{
-			return false;
-		}
+		
+		return $issue;
 	}
 
 	public function IsFirstIssue(){
@@ -87,7 +75,7 @@ class JournalIssue extends Page {
 			'Number:LessThan' => $this->Number
 
 		))->First();
-		//Debug::show($issueTest);
+		// Debug::show($issueTest);
 		if($issueTest){
 			return false;
 		}else{
@@ -101,6 +89,7 @@ class JournalIssue extends Page {
 			'Number:GreaterThan' => $this->Number
 
 		))->First();
+		// Debug::show($issueTest);
 		if($issueTest){
 			return false;
 		}else{

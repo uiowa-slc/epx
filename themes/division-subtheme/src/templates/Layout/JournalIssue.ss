@@ -26,9 +26,41 @@ $BlockArea(BeforeContent)
 		</div>
 		$BlockArea(AfterContentConstrained)
 		$Form
-		<% if $ShowChildPages %>
+
+		<div class="container padding">
+				<div class="row">
+					<div class="col-lg-12" >
+				       <div class="issue-header">
+				        	<h1>Issue {$Number}</h1>
+				        	<h2 class="smallcaps subheader">$Date</h2>
+				      	</div>
+				      	<div class="article-card-container full-width row">
+							<% loop $Children %>
+				          		<li><a href="$Link">$Title</a></li>
+				  			<% end_loop %>
+				      	</div>
+					</div>
+				</div>
+			</div>
+			<div class="article-nav-container container">
+				<div class="row article-card-container article-nav">
+				    <div class="col-md-4 text-left">
+				        <% if $PreviousIssue %>
+				            <h2><a href="$PreviousIssue.Link">Previous Issue:</a></h2>
+				            $PreviousIssue.Title
+				        <% end_if %>
+				    </div>
+				    <div class="col-md-4 col-md-offset-4 text-right">
+				        <% if $NextIssue %>
+				            <h2><a href="$NextIssue.Link">Next Issue:</a></h2>
+				            $NextIssue.Title
+				        <% end_if %>
+				     </div>
+				 </div>
+			</div>
+		<%-- <% if $ShowChildPages %>
 			<% include ChildPages %>
-		<% end_if %>
+		<% end_if %> --%>
 	</article>
 	<aside class="sidebar dp-sticky">
 		<% include SideNav %>
