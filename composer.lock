@@ -515,12 +515,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "878dbdb913c3dc04ab4a88bdb3de84c4c87224c3"
+                "reference": "1f7f27e03ec7891b14172fdc7218f0a699a68de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/878dbdb913c3dc04ab4a88bdb3de84c4c87224c3",
-                "reference": "878dbdb913c3dc04ab4a88bdb3de84c4c87224c3",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/1f7f27e03ec7891b14172fdc7218f0a699a68de3",
+                "reference": "1f7f27e03ec7891b14172fdc7218f0a699a68de3",
                 "shasum": ""
             },
             "require": {
@@ -568,7 +568,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-09-07 18:43:12"
+            "time": "2017-09-14 20:29:32"
         },
         {
             "name": "md/rss-display",
@@ -1196,12 +1196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "c110b4e2e109ac8e936fef226ccf92775a3bd794"
+                "reference": "9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/c110b4e2e109ac8e936fef226ccf92775a3bd794",
-                "reference": "c110b4e2e109ac8e936fef226ccf92775a3bd794",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445",
+                "reference": "9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445",
                 "shasum": ""
             },
             "require": {
@@ -1241,7 +1241,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2017-07-20 09:33:28"
+            "time": "2017-09-14 04:53:42"
         },
         {
             "name": "silverstripe/cms",
@@ -2000,12 +2000,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "91d512a423242d05c3d3d9f99c4343eaef25f59b"
+                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/91d512a423242d05c3d3d9f99c4343eaef25f59b",
-                "reference": "91d512a423242d05c3d3d9f99c4343eaef25f59b",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/d5c7b4dffa8811fd21471108126100b6389184ca",
+                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca",
                 "shasum": ""
             },
             "require": {
@@ -2052,7 +2052,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2017-08-11 00:15:38"
+            "time": "2017-09-09 06:56:54"
         },
         {
             "name": "symbiote/silverstripe-addressable",
@@ -2521,26 +2521,26 @@
         },
         {
             "name": "zendframework/zend-eventmanager",
-            "version": "3.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-eventmanager.git",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e"
+                "reference": "071016ade1deee5b8346ec9d8d48935437746c37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/5c80bdee0e952be112dcec0968bad770082c3a6e",
-                "reference": "5c80bdee0e952be112dcec0968bad770082c3a6e",
+                "url": "https://api.github.com/repos/zendframework/zend-eventmanager/zipball/071016ade1deee5b8346ec9d8d48935437746c37",
+                "reference": "071016ade1deee5b8346ec9d8d48935437746c37",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "athletic/athletic": "^0.1",
                 "container-interop/container-interop": "^1.1.0",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "^2.0",
+                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-stdlib": "^2.7.3 || ^3.0"
             },
             "suggest": {
@@ -2550,8 +2550,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev",
-                    "dev-develop": "3.1-dev"
+                    "dev-master": "3.2-dev",
+                    "dev-develop": "3.3-dev"
                 }
             },
             "autoload": {
@@ -2571,7 +2571,7 @@
                 "events",
                 "zf2"
             ],
-            "time": "2016-02-18T20:53:00+00:00"
+            "time": "2017-07-11 19:19:12"
         },
         {
             "name": "zendframework/zend-ldap",
@@ -2694,31 +2694,31 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "3.0.1",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae"
+                "reference": "16818ed8ee2a92a503c43883dcb6263fe6283ee8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/8bafa58574204bdff03c275d1d618aaa601588ae",
-                "reference": "8bafa58574204bdff03c275d1d618aaa601588ae",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/16818ed8ee2a92a503c43883dcb6263fe6283ee8",
+                "reference": "16818ed8ee2a92a503c43883dcb6263fe6283ee8",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1",
-                "fabpot/php-cs-fixer": "1.7.*",
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^2.6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev",
-                    "dev-develop": "3.1-dev"
+                    "dev-master": "3.1-dev",
+                    "dev-develop": "3.2-dev"
                 }
             },
             "autoload": {
@@ -2735,7 +2735,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-04-12T21:19:36+00:00"
+            "time": "2016-09-13 14:40:02"
         }
     ],
     "packages-dev": [],
