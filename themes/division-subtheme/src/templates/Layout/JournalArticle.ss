@@ -27,27 +27,23 @@ $BlockArea(BeforeContent)
 		$BlockArea(AfterContentConstrained)
 		$Form
 
-		<%-- <div class="article-nav-container container">
+		<div class="article-nav-container container">
 			<div class="row article-card-container article-nav">
 				<div class="col-md-3 text-left">
 					<% if $PreviousPage %>
 						<h2><a href="$PreviousPage.Link">Previous:</a></h2>
-						<% with $PreviousPage %>
-							<% include ArticleCard %>
-						<% end_with %>							
+													
 					<% end_if %>
 				</div>			
 				<div class="col-md-3 col-md-offset-6 text-right">
 					<% if $NextPage %>
 						<h2><a href="$NextPage.Link">Next:</a></h2>
-						<% with $NextPage %>
-							<% include ArticleCard %>
-						<% end_with %>
+						
 					<% end_if %>
 				</div>
 			</div>
 		
-		</div> --%>
+		</div>
 		<% if $ShowChildPages %>
 			<% include ChildPages %>
 		<% end_if %>

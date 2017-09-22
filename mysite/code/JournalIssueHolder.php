@@ -18,6 +18,10 @@ class JournalIssueHolder extends Page {
 		return $fields;
 	}
 
+	public function getIssues(){
+		return JournalIssue::get();
+	}
+
 }
 
 class JournalIssueHolder_Controller extends Page_Controller {

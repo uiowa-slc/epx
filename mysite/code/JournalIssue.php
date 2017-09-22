@@ -27,14 +27,13 @@ class JournalIssue extends Page {
 
 		return $fields;
 	}
-
-	public function getIssues(){
-		return Issue::get()->filter(array('JournalIssue' => $this->Number));
-	}
-
 	public function getArticles() {
 		return $this->Children();
 	}
+
+	// public function getIssues(){
+	// 	return JournalIssue::get();
+	// }
 
 	public function getRandomArticles() {
 		return SiteTree::get()->filter('ParentID', $this->ID)->sort('RAND()');

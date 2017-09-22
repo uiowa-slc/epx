@@ -35,13 +35,9 @@ $BlockArea(BeforeContent)
 						<h2>Issue {$Number}</h2>
 							<ul>
 								<% loop $getIssues %>			
-									<li>
-										<a href="$Link">
-										<% if $Number %> No. {$Number}
-											<% if $Date %> - {$Date}<% end_if %>
-										<% end_if %>
-										</a>
-									</li>
+										<li><a href="$Link">
+										$Title
+										</a></li>
 								<% end_loop %>
 							</ul>
 					</div> 
