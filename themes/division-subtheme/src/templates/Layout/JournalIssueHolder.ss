@@ -31,8 +31,7 @@ $BlockArea(BeforeContent)
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h1>$Title</h1>
-						<h2>Issue {$Number}</h2>
+						<%-- <h2>Issue {$Number}</h2> --%>
 							<ul>
 								<% loop $getIssues %>			
 										<li><a href="$Link">
