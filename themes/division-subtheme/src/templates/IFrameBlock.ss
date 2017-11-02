@@ -1,0 +1,8 @@
+<section class="content-block__container content-block__container--padding">
+	<div class="content-block">
+		<div class="responsive-embed widescreen">
+			<h2 class="header">$Title</h2>
+			<iframe  width="$Width" height="$Height"src="$EmbeddedURL" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+</section>
