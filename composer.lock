@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c0311dd82ff430fedd44e4664f3cd355",
+    "content-hash": "8a2df0ff02489e4391305e0403b37f4d",
     "packages": [
         {
             "name": "asyncphp/doorman",
@@ -309,6 +309,187 @@
             "time": "2017-08-16 17:28:07"
         },
         {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-06-22T18:50:49+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "e9cdab6ff93ff789b5b599326c727f51d10893a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/e9cdab6ff93ff789b5b599326c727f51d10893a6",
+                "reference": "e9cdab6ff93ff789b5b599326c727f51d10893a6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2017-10-06 12:25:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "d2537c86fa8b004c29e9b9f5e10028f0a29df101"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/d2537c86fa8b004c29e9b9f5e10028f0a29df101",
+                "reference": "d2537c86fa8b004c29e9b9f5e10028f0a29df101",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-10-07 03:19:56"
+        },
+        {
             "name": "jeremeamia/SuperClosure",
             "version": "1.0.x-dev",
             "source": {
@@ -478,17 +659,190 @@
             "time": "2017-06-26 14:20:23"
         },
         {
+            "name": "lullabot/amp",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lullabot/amp-library.git",
+                "reference": "a8eb47c657a99ddbcf208631d44ffd41bc0219ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lullabot/amp-library/zipball/a8eb47c657a99ddbcf208631d44ffd41bc0219ce",
+                "reference": "a8eb47c657a99ddbcf208631d44ffd41bc0219ce",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.1",
+                "marc1706/fast-image-size": "1.*",
+                "masterminds/html5": "^2.2.0",
+                "php": ">=5.5.0",
+                "querypath/querypath": ">=3.0.4",
+                "sabberworm/php-css-parser": "^8.0.0",
+                "sebastian/diff": "~1.2"
+            },
+            "require-dev": {
+                "php": ">=5.5.0",
+                "phpunit/phpunit": "4.8.*",
+                "symfony/console": "^2.7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/Spec/validator-generated.php"
+                ],
+                "psr-4": {
+                    "Lullabot\\AMP\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sidharth Kshatriya",
+                    "email": "sid.kshatriya@gmail.com"
+                }
+            ],
+            "description": "A set of useful classes and utilities to convert html to AMP html (See https://www.ampproject.org/)",
+            "homepage": "https://github.com/Lullabot/amp-library",
+            "keywords": [
+                "amp",
+                "drupal",
+                "mobile"
+            ],
+            "time": "2017-08-03T15:10:55+00:00"
+        },
+        {
+            "name": "marc1706/fast-image-size",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marc1706/fast-image-size.git",
+                "reference": "c4ded0223a4e49ae45a2183a69f6afac5baf7250"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marc1706/fast-image-size/zipball/c4ded0223a4e49ae45a2183a69f6afac5baf7250",
+                "reference": "c4ded0223a4e49ae45a2183a69f6afac5baf7250",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastImageSize\\": "lib",
+                    "FastImageSize\\tests\\": "tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Alexander",
+                    "email": "admin@m-a-styles.de",
+                    "homepage": "https://www.m-a-styles.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "fast-image-size is a PHP library that does almost everything PHP's getimagesize() does but without the large overhead of downloading the complete file.",
+            "homepage": "https://www.m-a-styles.de",
+            "keywords": [
+                "fast",
+                "getimagesize",
+                "image",
+                "imagesize",
+                "php",
+                "size"
+            ],
+            "time": "2017-10-23 18:52:01"
+        },
+        {
+            "name": "masterminds/html5",
+            "version": "2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Masterminds/html5-php.git",
+                "reference": "441fb2bc82599e4e3e90ee94d0f084649f4952f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/441fb2bc82599e4e3e90ee94d0f084649f4952f2",
+                "reference": "441fb2bc82599e4e3e90ee94d0f084649f4952f2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-libxml": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "sami/sami": "~2.0",
+                "satooshi/php-coveralls": "1.0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Masterminds\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Butcher",
+                    "email": "technosophos@gmail.com"
+                },
+                {
+                    "name": "Asmir Mustafic",
+                    "email": "goetas@gmail.com"
+                },
+                {
+                    "name": "Matt Farina",
+                    "email": "matt@mattfarina.com"
+                }
+            ],
+            "description": "An HTML5 parser and serializer.",
+            "homepage": "http://masterminds.github.io/html5-php",
+            "keywords": [
+                "HTML5",
+                "dom",
+                "html",
+                "parser",
+                "querypath",
+                "serializer",
+                "xml"
+            ],
+            "time": "2017-09-04 12:36:31"
+        },
+        {
             "name": "md/ac-json-events",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "2868e6d3f19855714b8a76880866c9d2b322ce9d"
+                "reference": "1583604cd24db9951bcd27c8ae72db8b53c01571"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/2868e6d3f19855714b8a76880866c9d2b322ce9d",
-                "reference": "2868e6d3f19855714b8a76880866c9d2b322ce9d",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/1583604cd24db9951bcd27c8ae72db8b53c01571",
+                "reference": "1583604cd24db9951bcd27c8ae72db8b53c01571",
                 "shasum": ""
             },
             "require": {
@@ -507,7 +861,34 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2017-08-31 21:36:10"
+            "time": "2017-10-12 21:40:31"
+        },
+        {
+            "name": "md/division-analytics",
+            "version": "1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics.git",
+                "reference": "096f6fb83a8b947f7a8e5d795f5ea70d7c10b1c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-analytics/zipball/096f6fb83a8b947f7a8e5d795f5ea70d7c10b1c3",
+                "reference": "096f6fb83a8b947f7a8e5d795f5ea70d7c10b1c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "silverstripe/cms": "3.6.*@stable",
+                "silverstripe/framework": "3.6.*@stable"
+            },
+            "type": "silverstripe-module",
+            "description": "The University of Iowa Division of Student Life Analytics",
+            "support": {
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/tree/master",
+                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
+            },
+            "time": "2017-10-26 17:44:03"
         },
         {
             "name": "md/division-project",
@@ -515,12 +896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "fb7b708392eb234949425b34f79610546321744f"
+                "reference": "afde2feb715ef20c64aecc9f84dd74976c8cba10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/fb7b708392eb234949425b34f79610546321744f",
-                "reference": "fb7b708392eb234949425b34f79610546321744f",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/afde2feb715ef20c64aecc9f84dd74976c8cba10",
+                "reference": "afde2feb715ef20c64aecc9f84dd74976c8cba10",
                 "shasum": ""
             },
             "require": {
@@ -528,7 +909,9 @@
                 "jonom/focuspoint": "2.4.*",
                 "jonom/silverstripe-betternavigator": "3.*",
                 "md/ac-json-events": "dev-master",
+                "md/division-analytics": "1.*",
                 "md/rss-display": "*",
+                "md/silverstripe-amp": "dev-master",
                 "micschk/silverstripe-gridfieldsitetreebuttons": "*",
                 "normann/gridfieldpaginatorwithshowall": "*",
                 "olliepop/fbpagefeed": "dev-master",
@@ -537,6 +920,7 @@
                 "sheadawson/quickaddnew": "*",
                 "sheadawson/silverstripe-blocks": "1.1.1",
                 "sheadawson/silverstripe-linkable": "1.3.*",
+                "silverstripe-rebelalliance/youtubefield": "*",
                 "silverstripe-themes/simple": "*",
                 "silverstripe/activedirectory": "3.*",
                 "silverstripe/blog": "2.*",
@@ -568,7 +952,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-09-18 16:31:21"
+            "time": "2017-11-07 16:47:02"
         },
         {
             "name": "md/rss-display",
@@ -601,6 +985,49 @@
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/rss-display/issues"
             },
             "time": "2015-04-28 20:02:10"
+        },
+        {
+            "name": "md/silverstripe-amp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp.git",
+                "reference": "9d6e3384c158988627710101c080e2711817f0b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-amp/zipball/9d6e3384c158988627710101c080e2711817f0b2",
+                "reference": "9d6e3384c158988627710101c080e2711817f0b2",
+                "shasum": ""
+            },
+            "require": {
+                "lullabot/amp": "^1.0.0",
+                "silverstripe/cms": "~3.2",
+                "silverstripe/framework": "~3.2"
+            },
+            "type": "silverstripe-module",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Richard Rudy",
+                    "email": "iwant@designplusawesome.com"
+                }
+            ],
+            "description": "Module for converting SilverStripe Pages to Google AMP HTML",
+            "homepage": "http://github.com/thezenmonkey/silverstripe-amp",
+            "keywords": [
+                "AMPHTML",
+                "google",
+                "mobile",
+                "silverstripe"
+            ],
+            "support": {
+                "issues": "http://github.com/thezenmonkey/silverstripe-amp/issues",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp/tree/master"
+            },
+            "time": "2017-11-01 15:30:43"
         },
         {
             "name": "micschk/silverstripe-gridfieldsitetreebuttons",
@@ -754,19 +1181,20 @@
         },
         {
             "name": "onelogin/php-saml",
-            "version": "2.11.0",
+            "version": "v2.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/onelogin/php-saml.git",
-                "reference": "818d6ee07e3797fd7e4006bff01bd2abc295cb65"
+                "reference": "9416fa739cff88ffcc472967cec048a774b97e0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/818d6ee07e3797fd7e4006bff01bd2abc295cb65",
-                "reference": "818d6ee07e3797fd7e4006bff01bd2abc295cb65",
+                "url": "https://api.github.com/repos/onelogin/php-saml/zipball/9416fa739cff88ffcc472967cec048a774b97e0f",
+                "reference": "9416fa739cff88ffcc472967cec048a774b97e0f",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "ext-dom": "*",
                 "ext-mcrypt": "*",
                 "ext-openssl": "*",
@@ -781,9 +1209,7 @@
                 "squizlabs/php_codesniffer": "2.9.0"
             },
             "suggest": {
-                "ext-gettext": "Install gettext and php5-gettext libs to handle translations",
-                "ext-mcrypt": "Install mcrypt and php5-mcrypt libs in order to support encryption",
-                "lib-openssl": "Install openssl lib in order to handle with x509 certs (require to support sign and encryption)"
+                "ext-gettext": "Install gettext and php5-gettext libs to handle translations"
             },
             "type": "library",
             "autoload": {
@@ -798,13 +1224,13 @@
                 "MIT"
             ],
             "description": "OneLogin PHP SAML Toolkit",
-            "homepage": "https://onelogin.zendesk.com/hc/en-us/sections/200245634-SAML-Toolkits",
+            "homepage": "https://developers.onelogin.com/saml/php",
             "keywords": [
                 "SAML2",
                 "onelogin",
                 "saml"
             ],
-            "time": "2017-07-21T20:16:31+00:00"
+            "time": "2017-11-06T17:44:03+00:00"
         },
         {
             "name": "plato-creative/silverstripe-typekit",
@@ -855,6 +1281,98 @@
             "time": "2017-06-12 23:37:15"
         },
         {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
+            "name": "querypath/querypath",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/technosophos/querypath.git",
+                "reference": "82fcee6e688fea7d90e78b3737103f5ee69ee822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/technosophos/querypath/zipball/82fcee6e688fea7d90e78b3737103f5ee69ee822",
+                "reference": "82fcee6e688fea7d90e78b3737103f5ee69ee822",
+                "shasum": ""
+            },
+            "require": {
+                "masterminds/html5": "2.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "QueryPath": "src/"
+                },
+                "files": [
+                    "src/qp_functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "HTML/XML querying (CSS 4 or XPath) and processing (like jQuery)",
+            "homepage": "https://github.com/technosophos/querypath",
+            "keywords": [
+                "css",
+                "html",
+                "jquery",
+                "xml",
+                "xslt"
+            ],
+            "time": "2017-03-17 15:39:52"
+        },
+        {
             "name": "ramsey/array_column",
             "version": "1.1.3",
             "source": {
@@ -898,6 +1416,102 @@
                 "column"
             ],
             "time": "2015-03-20T22:07:39+00:00"
+        },
+        {
+            "name": "sabberworm/php-css-parser",
+            "version": "8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
+                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Sabberworm\\CSS": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raphael Schweikert"
+                }
+            ],
+            "description": "Parser for CSS Files written in PHP",
+            "homepage": "http://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+            "keywords": [
+                "css",
+                "parser",
+                "stylesheet"
+            ],
+            "time": "2016-07-19T19:14:21+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "1.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "reference": "7f066a26a962dbe58ddea9f72a4e82874a3975a4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kore Nordmann",
+                    "email": "mail@kore-nordmann.de"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Diff implementation",
+            "homepage": "https://github.com/sebastianbergmann/diff",
+            "keywords": [
+                "diff"
+            ],
+            "time": "2017-05-22 07:24:03"
         },
         {
             "name": "sheadawson/quickaddnew",
@@ -1090,6 +1704,45 @@
             "time": "2017-07-01 13:28:41"
         },
         {
+            "name": "silverstripe-rebelalliance/youtubefield",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-terraformers/silverstripe-youtubefield.git",
+                "reference": "a205b94c55a7cf2aa343d095229958462bac2c08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-terraformers/silverstripe-youtubefield/zipball/a205b94c55a7cf2aa343d095229958462bac2c08",
+                "reference": "a205b94c55a7cf2aa343d095229958462bac2c08",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "youtubefield"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ed Linklater",
+                    "email": "ed@silverstripe.com"
+                }
+            ],
+            "description": "Field for selecting YouTube videos. Takes various URL formats as input and stores the YouTube ID.",
+            "keywords": [
+                "formfield",
+                "silverstripe",
+                "youtube"
+            ],
+            "time": "2017-10-29 23:11:58"
+        },
+        {
             "name": "silverstripe-themes/simple",
             "version": "dev-master",
             "source": {
@@ -1136,12 +1789,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory.git",
-                "reference": "0861435d5b8a5d3fe67528091f0f6a2dd0a27c20"
+                "reference": "7c6a6e8b827a928f47419d0740c96854ac37dfcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/0861435d5b8a5d3fe67528091f0f6a2dd0a27c20",
-                "reference": "0861435d5b8a5d3fe67528091f0f6a2dd0a27c20",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/7c6a6e8b827a928f47419d0740c96854ac37dfcf",
+                "reference": "7c6a6e8b827a928f47419d0740c96854ac37dfcf",
                 "shasum": ""
             },
             "require": {
@@ -1188,7 +1841,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3"
             },
-            "time": "2017-08-25 16:29:19"
+            "time": "2017-10-24 16:14:20"
         },
         {
             "name": "silverstripe/blog",
@@ -1196,16 +1849,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445"
+                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445",
-                "reference": "9a5690ca3e5eaeac4efa0a8bb95528d2cb9cf445",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/ffc0ab7f3890e573e18147ed8b687e7214128fe2",
+                "reference": "ffc0ab7f3890e573e18147ed8b687e7214128fe2",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/cms": "^3.1.0",
+                "silverstripe/cms": "^3.2.0",
                 "silverstripe/lumberjack": "~1.1",
                 "silverstripe/tagfield": "^1.0"
             },
@@ -1241,7 +1894,7 @@
                 "news",
                 "silverstripe"
             ],
-            "time": "2017-09-14 04:53:42"
+            "time": "2017-11-03 02:35:11"
         },
         {
             "name": "silverstripe/cms",
@@ -1397,12 +2050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-lumberjack.git",
-                "reference": "7115455b68782b1065e2f3bc29dfda12fd77de84"
+                "reference": "80445d05ae35e53ea6f11426136d52a59f163c1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-lumberjack/zipball/7115455b68782b1065e2f3bc29dfda12fd77de84",
-                "reference": "7115455b68782b1065e2f3bc29dfda12fd77de84",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-lumberjack/zipball/80445d05ae35e53ea6f11426136d52a59f163c1e",
+                "reference": "80445d05ae35e53ea6f11426136d52a59f163c1e",
                 "shasum": ""
             },
             "require": {
@@ -1429,7 +2082,7 @@
                 }
             ],
             "description": "A module to make managing pages in a GridField easy without losing any of the functionality that you're used to in the CMS.",
-            "time": "2017-06-15 18:18:50"
+            "time": "2017-10-18 01:28:33"
         },
         {
             "name": "silverstripe/mathspamprotection",
@@ -1894,16 +2547,16 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "4.x-dev",
+            "version": "4.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "77538fac0baee72d9994af9e71bbfc72eba3ce79"
+                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/77538fac0baee72d9994af9e71bbfc72eba3ce79",
-                "reference": "77538fac0baee72d9994af9e71bbfc72eba3ce79",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/ab794f4790829c34c6b50ba835ac9afce0e122c2",
+                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2",
                 "shasum": ""
             },
             "require": {
@@ -1949,7 +2602,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2017-08-21 22:42:56"
+            "time": "2017-08-25T04:44:47+00:00"
         },
         {
             "name": "silverstripe/widgets",
@@ -2000,12 +2653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplepie/simplepie.git",
-                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca"
+                "reference": "3b389d866558a7d0891b4ec05a4394b9026e2334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/d5c7b4dffa8811fd21471108126100b6389184ca",
-                "reference": "d5c7b4dffa8811fd21471108126100b6389184ca",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/3b389d866558a7d0891b4ec05a4394b9026e2334",
+                "reference": "3b389d866558a7d0891b4ec05a4394b9026e2334",
                 "shasum": ""
             },
             "require": {
@@ -2052,7 +2705,7 @@
                 "feeds",
                 "rss"
             ],
-            "time": "2017-09-09 06:56:54"
+            "time": "2017-11-06 02:28:50"
         },
         {
             "name": "symbiote/silverstripe-addressable",
@@ -2060,12 +2713,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symbiote/silverstripe-addressable.git",
-                "reference": "60af1b36a81b661ad8e9fd3b7bab9ff70dd29b73"
+                "reference": "ddf6fe6155b39cca068fa7e5a995b6e775cb7d8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-addressable/zipball/60af1b36a81b661ad8e9fd3b7bab9ff70dd29b73",
-                "reference": "60af1b36a81b661ad8e9fd3b7bab9ff70dd29b73",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-addressable/zipball/ddf6fe6155b39cca068fa7e5a995b6e775cb7d8f",
+                "reference": "ddf6fe6155b39cca068fa7e5a995b6e775cb7d8f",
                 "shasum": ""
             },
             "require": {
@@ -2102,7 +2755,7 @@
                 "geocoding",
                 "silverstripe"
             ],
-            "time": "2017-06-29 06:26:01"
+            "time": "2017-10-18 00:08:29"
         },
         {
             "name": "symbiote/silverstripe-gridfieldextensions",
@@ -2159,16 +2812,16 @@
         },
         {
             "name": "thisisbd/silverstripe-maintenance-mode",
-            "version": "v1.0.5",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dljoseph/silverstripe-maintenance-mode.git",
-                "reference": "a2f17acaf32310e97e8e3d3a4b3020bba1da36da"
+                "reference": "fbf69224a9cf3a058b2b67fcea4cb9f29e6a452e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dljoseph/silverstripe-maintenance-mode/zipball/a2f17acaf32310e97e8e3d3a4b3020bba1da36da",
-                "reference": "a2f17acaf32310e97e8e3d3a4b3020bba1da36da",
+                "url": "https://api.github.com/repos/dljoseph/silverstripe-maintenance-mode/zipball/fbf69224a9cf3a058b2b67fcea4cb9f29e6a452e",
+                "reference": "fbf69224a9cf3a058b2b67fcea4cb9f29e6a452e",
                 "shasum": ""
             },
             "require": {
@@ -2208,7 +2861,7 @@
                 "under construction",
                 "utility page"
             ],
-            "time": "2016-07-21T21:27:29+00:00"
+            "time": "2017-02-01 21:38:32"
         },
         {
             "name": "unclecheese/betterbuttons",
