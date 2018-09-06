@@ -75,3 +75,6 @@ youtubefield/
 nocaptcha.yml
 silverstripe-versioneddataobjects/
 sortableuploadfield/
+codeeditorfield/
+comment-notifications/
+comments/
