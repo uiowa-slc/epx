@@ -1,0 +1,6 @@
+CommentingController:
+  extensions:
+    - 'CommentControllerExtension'
+  required_fields:
+    - 'Name'
+    - 'Email'
