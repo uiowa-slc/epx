@@ -1,3 +1,8 @@
-BlogPost:
-  extensions:
-    - CommentsExtension
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: mysite
+# SilverStripe\Blog\Model\BlogPost:
+#   extensions:
+#     - CommentsExtension
