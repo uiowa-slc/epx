@@ -3,7 +3,7 @@
 	<header id="header" class="header header--{$DarkLight} header--{$HeaderType}" role="banner">
 
 		<div itemscope="" class="hide-for-medium" itemtype="http://schema.org/Organization">
-			<h1 class="header__site-title"><a href="$AbsoluteBaseURL" class="header__link--{$DarkLight}" itemprop="url"><span class="show-for-sr" itemprop="name">$SiteConfig.Title</span><img src="{$ThemeDir}/src/images/epx-logo--{$DarkLight}.png" width="240" class="nav__logo" alt="" role="presentation" /></a></h1>
+			<h1 class="header__site-title"><a href="$AbsoluteBaseURL" class="header__link--{$DarkLight}" itemprop="url"><span class="show-for-sr" itemprop="name">$SiteConfig.Title</span><img src="{$ThemeDir}/src/images/epx-logo-youtube-tiU4AYPdIOw.png" width="240" class="nav__logo" alt="" role="presentation" /></a></h1>
 		</div>
 
 		<div class="nav__toggle nav__toggle--menu show-for-small hide-for-medium">
