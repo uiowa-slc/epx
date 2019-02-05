@@ -1,14 +1,30 @@
+.homepage__header .header__container {
+	background: #161514;
+
+}
+
+
+.header__container--dark-header{
+	background: #161514;
+}
+
 .nav__logo{
-	width: rem-calc(120);
+	width: rem-calc(110);
 	margin-bottom: rem-calc(0);
 }
 .nav__link--search{
-	
 		display: block;
 		line-height: inherit;
 	
 }
 
+.nav__link--dark-header:hover{
+	text-decoration: none;
+}
+.nav__item--dark-header:hover>a{
+	background: #161514;
+	color: white;
+}
 .subnav{
 	
 }
