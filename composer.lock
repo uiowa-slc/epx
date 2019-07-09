@@ -1034,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "90c4bb2a70f5323d6e71d1818c96bc6e91693bfa"
+                "reference": "7f911e8192baa0469918ceace1746b8ce217281f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/90c4bb2a70f5323d6e71d1818c96bc6e91693bfa",
-                "reference": "90c4bb2a70f5323d6e71d1818c96bc6e91693bfa",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/7f911e8192baa0469918ceace1746b8ce217281f",
+                "reference": "7f911e8192baa0469918ceace1746b8ce217281f",
                 "shasum": ""
             },
             "require": {
@@ -1061,7 +1061,7 @@
                 "plato-creative/silverstripe-typekit": "*",
                 "sheadawson/quickaddnew": "*",
                 "sheadawson/silverstripe-blocks": "1.1.1",
-                "sheadawson/silverstripe-linkable": "1.3.*",
+                "sheadawson/silverstripe-linkable": "*",
                 "silverstripe-rebelalliance/youtubefield": "*",
                 "silverstripe-themes/simple": "*",
                 "silverstripe/activedirectory": "^3.1",
@@ -1075,7 +1075,7 @@
                 "silverstripe/siteconfig": "3.6.7",
                 "silverstripe/staticpublisher": "*",
                 "silverstripe/timepickerfield": "1.1.*",
-                "silverstripe/userforms": "4.*",
+                "silverstripe/userforms": "*",
                 "silverstripe/widgets": "*",
                 "simplepie/simplepie": "*",
                 "symbiote/silverstripe-addressable": "3.*",
@@ -1083,7 +1083,7 @@
                 "unclecheese/betterbuttons": "*",
                 "unclecheese/display-logic": "1.5.*",
                 "unclecheese/eventcalendar": "1.*",
-                "undefinedoffset/silverstripe-nocaptcha": "0.4.*",
+                "undefinedoffset/silverstripe-nocaptcha": "*",
                 "undefinedoffset/sortablegridfield": "0.6.*",
                 "unisolutions/silverstripe-copybutton": "*"
             },
@@ -1093,7 +1093,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2019-07-09T20:58:14+00:00"
+            "time": "2019-07-09T21:01:43+00:00"
         },
         {
             "name": "md/rss-display",
@@ -3377,21 +3377,21 @@
         },
         {
             "name": "undefinedoffset/silverstripe-nocaptcha",
-            "version": "0.4.0",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/silverstripe-nocaptcha.git",
-                "reference": "c8b528fd373d78ec8fe868202c338eb4198fc2b3"
+                "reference": "94dd217f5a5b5d20b39d3def802bc184783eeadd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/silverstripe-nocaptcha/zipball/c8b528fd373d78ec8fe868202c338eb4198fc2b3",
-                "reference": "c8b528fd373d78ec8fe868202c338eb4198fc2b3",
+                "url": "https://api.github.com/repos/UndefinedOffset/silverstripe-nocaptcha/zipball/94dd217f5a5b5d20b39d3def802bc184783eeadd",
+                "reference": "94dd217f5a5b5d20b39d3def802bc184783eeadd",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "*",
-                "silverstripe/framework": "~3.1",
+                "silverstripe/framework": "~3.2",
                 "silverstripe/spamprotection": "~2.0"
             },
             "type": "silverstripe-module",
@@ -3417,7 +3417,7 @@
                 "silverstripe",
                 "spamprotection"
             ],
-            "time": "2017-05-11T12:38:53+00:00"
+            "time": "2018-08-21T13:12:53+00:00"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
