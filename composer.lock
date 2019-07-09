@@ -1034,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "7f911e8192baa0469918ceace1746b8ce217281f"
+                "reference": "42b973a373c2d8c9c7bc8a751666efb35009ef29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/7f911e8192baa0469918ceace1746b8ce217281f",
-                "reference": "7f911e8192baa0469918ceace1746b8ce217281f",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/42b973a373c2d8c9c7bc8a751666efb35009ef29",
+                "reference": "42b973a373c2d8c9c7bc8a751666efb35009ef29",
                 "shasum": ""
             },
             "require": {
@@ -1060,7 +1060,7 @@
                 "php": ">=5.3.2",
                 "plato-creative/silverstripe-typekit": "*",
                 "sheadawson/quickaddnew": "*",
-                "sheadawson/silverstripe-blocks": "1.1.1",
+                "sheadawson/silverstripe-blocks": "1.1.3",
                 "sheadawson/silverstripe-linkable": "*",
                 "silverstripe-rebelalliance/youtubefield": "*",
                 "silverstripe-themes/simple": "*",
@@ -1079,6 +1079,7 @@
                 "silverstripe/widgets": "*",
                 "simplepie/simplepie": "*",
                 "symbiote/silverstripe-addressable": "3.*",
+                "symbiote/silverstripe-gridfieldextensions": "*",
                 "thisisbd/silverstripe-maintenance-mode": "1.*",
                 "unclecheese/betterbuttons": "*",
                 "unclecheese/display-logic": "1.5.*",
@@ -1093,7 +1094,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2019-07-09T21:01:43+00:00"
+            "time": "2019-07-09T21:34:33+00:00"
         },
         {
             "name": "md/rss-display",
@@ -1864,24 +1865,24 @@
         },
         {
             "name": "sheadawson/silverstripe-blocks",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheadawson/silverstripe-blocks.git",
-                "reference": "40617e4f965c806c0f178e13d11c91e66be7c0f7"
+                "reference": "dbe48ac0924692704b53ab82b938a89494633144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheadawson/silverstripe-blocks/zipball/40617e4f965c806c0f178e13d11c91e66be7c0f7",
-                "reference": "40617e4f965c806c0f178e13d11c91e66be7c0f7",
+                "url": "https://api.github.com/repos/sheadawson/silverstripe-blocks/zipball/dbe48ac0924692704b53ab82b938a89494633144",
+                "reference": "dbe48ac0924692704b53ab82b938a89494633144",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "*",
-                "silverstripe-australia/gridfieldextensions": "~1.0",
                 "silverstripe/cms": "~3.1",
                 "silverstripe/framework": "~3.1",
-                "silverstripe/multivaluefield": "~2.0",
+                "symbiote/silverstripe-gridfieldextensions": "~2.0",
+                "symbiote/silverstripe-multivaluefield": "~3.0",
                 "unclecheese/betterbuttons": "~1.2"
             },
             "suggest": {
@@ -1906,7 +1907,7 @@
                 "silverstripe",
                 "widgets"
             ],
-            "time": "2016-11-08T22:48:10+00:00"
+            "time": "2019-05-27T22:12:59+00:00"
         },
         {
             "name": "sheadawson/silverstripe-linkable",
@@ -1960,61 +1961,6 @@
                 "silverstripe"
             ],
             "time": "2017-05-30T04:40:45+00:00"
-        },
-        {
-            "name": "silverstripe-australia/gridfieldextensions",
-            "version": "1.5.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symbiote/silverstripe-gridfieldextensions.git",
-                "reference": "ce4d579e67184ddd91cd4dfc1928c7bb36aef64c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-gridfieldextensions/zipball/ce4d579e67184ddd91cd4dfc1928c7bb36aef64c",
-                "reference": "ce4d579e67184ddd91cd4dfc1928c7bb36aef64c",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": "~3.1"
-            },
-            "replace": {
-                "ajshort/silverstripe-gridfieldextensions": "self.version",
-                "silverstripe-australia/gridfieldextensions": "self.version"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "gridfieldextensions",
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                },
-                "screenshots": [
-                    "docs/en/_images/editable-rows.png",
-                    "docs/en/_images/add-existing-search.png"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Marcus Nyeholt",
-                    "email": "marcus@silverstripe.com.au"
-                },
-                {
-                    "name": "Andrew Short",
-                    "email": "andrewjshort@gmail.com"
-                }
-            ],
-            "description": "A collection of useful grid field components",
-            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
-            "keywords": [
-                "gridfield",
-                "silverstripe"
-            ],
-            "abandoned": "symbiote/silverstripe-gridfieldextensions",
-            "time": "2018-12-12T04:49:25+00:00"
         },
         {
             "name": "silverstripe-rebelalliance/youtubefield",
@@ -2106,23 +2052,23 @@
         },
         {
             "name": "silverstripe/activedirectory",
-            "version": "3.x-dev",
+            "version": "3.1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory.git",
-                "reference": "443e96a4ca03e5b3295d8c46b6314974d15703f8"
+                "reference": "f167dc593b4c462f5e68f7b7ef828a69ea345dc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/443e96a4ca03e5b3295d8c46b6314974d15703f8",
-                "reference": "443e96a4ca03e5b3295d8c46b6314974d15703f8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-activedirectory/zipball/f167dc593b4c462f5e68f7b7ef828a69ea345dc5",
+                "reference": "f167dc593b4c462f5e68f7b7ef828a69ea345dc5",
                 "shasum": ""
             },
             "require": {
                 "onelogin/php-saml": "^2.10.7",
                 "php": ">=5.4",
                 "silverstripe/framework": "~3.1",
-                "symbiote/silverstripe-queuedjobs": "~2.6@stable",
+                "symbiote/silverstripe-queuedjobs": "^3",
                 "zendframework/zend-authentication": "^2.5.1",
                 "zendframework/zend-ldap": "^2.5.1",
                 "zendframework/zend-session": "^2.5.1"
@@ -2160,9 +2106,9 @@
                 "sso"
             ],
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3"
+                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-activedirectory/tree/3.1.0.1"
             },
-            "time": "2017-11-10T16:08:11+00:00"
+            "time": "2017-11-10T15:11:36+00:00"
         },
         {
             "name": "silverstripe/cms",
@@ -2500,46 +2446,6 @@
                 "spamprotection"
             ],
             "time": "2016-02-03T15:47:25+00:00"
-        },
-        {
-            "name": "silverstripe/multivaluefield",
-            "version": "2.4.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symbiote/silverstripe-multivaluefield.git",
-                "reference": "e280683e3ce7973c916fa1436d06aa44a350f768"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/e280683e3ce7973c916fa1436d06aa44a350f768",
-                "reference": "e280683e3ce7973c916fa1436d06aa44a350f768",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": "~3.1"
-            },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "multivaluefield"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Marcus Nyeholt",
-                    "email": "marcus@silverstripe.com.au"
-                }
-            ],
-            "description": "A DB field + form fields for storing multiple values in a single property (serialized).",
-            "keywords": [
-                "dbfield",
-                "formfield",
-                "silverstripe"
-            ],
-            "abandoned": "symbiote/silverstripe-multivaluefield",
-            "time": "2019-02-18T05:02:57+00:00"
         },
         {
             "name": "silverstripe/reports",
@@ -2886,23 +2792,23 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "4.5.2",
+            "version": "4.6.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2"
+                "reference": "81d74331ddf85956dff1847be4d83f010cd3b5ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/ab794f4790829c34c6b50ba835ac9afce0e122c2",
-                "reference": "ab794f4790829c34c6b50ba835ac9afce0e122c2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/81d74331ddf85956dff1847be4d83f010cd3b5ba",
+                "reference": "81d74331ddf85956dff1847be4d83f010cd3b5ba",
                 "shasum": ""
             },
             "require": {
-                "silverstripe/cms": "~3.2",
-                "silverstripe/framework": "~3.2",
+                "silverstripe/cms": "^3.4.2",
+                "silverstripe/framework": "^3.4.2",
                 "silverstripe/segment-field": "^1.0",
-                "symbiote/silverstripe-gridfieldextensions": "~1.1"
+                "symbiote/silverstripe-gridfieldextensions": "^2.0"
             },
             "suggest": {
                 "colymba/gridfield-bulk-editing-tools": "Allows for bulk management of form submissions",
@@ -2941,7 +2847,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2017-08-25T04:44:47+00:00"
+            "time": "2019-03-26T01:42:52+00:00"
         },
         {
             "name": "silverstripe/widgets",
@@ -3110,69 +3016,33 @@
             "time": "2018-07-25T05:45:07+00:00"
         },
         {
-            "name": "symbiote/silverstripe-multivaluefield",
-            "version": "2.4.x-dev",
+            "name": "symbiote/silverstripe-gridfieldextensions",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symbiote/silverstripe-multivaluefield.git",
-                "reference": "e280683e3ce7973c916fa1436d06aa44a350f768"
+                "url": "https://github.com/symbiote/silverstripe-gridfieldextensions.git",
+                "reference": "4821e9ef747cc939ed9799d7e1d5b392f70c9ab4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/e280683e3ce7973c916fa1436d06aa44a350f768",
-                "reference": "e280683e3ce7973c916fa1436d06aa44a350f768",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-gridfieldextensions/zipball/4821e9ef747cc939ed9799d7e1d5b392f70c9ab4",
+                "reference": "4821e9ef747cc939ed9799d7e1d5b392f70c9ab4",
                 "shasum": ""
             },
             "require": {
                 "silverstripe/framework": "~3.1"
             },
-            "type": "silverstripe-module",
-            "extra": {
-                "installer-name": "multivaluefield"
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Marcus Nyeholt",
-                    "email": "marcus@silverstripe.com.au"
-                }
-            ],
-            "description": "A DB field + form fields for storing multiple values in a single property (serialized).",
-            "keywords": [
-                "dbfield",
-                "formfield",
-                "silverstripe"
-            ],
-            "time": "2019-02-18T05:02:57+00:00"
-        },
-        {
-            "name": "symbiote/silverstripe-queuedjobs",
-            "version": "2.10.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symbiote/silverstripe-queuedjobs.git",
-                "reference": "aabfab5c18c5fc36d8e0b70553468e18b403d14c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/aabfab5c18c5fc36d8e0b70553468e18b403d14c",
-                "reference": "aabfab5c18c5fc36d8e0b70553468e18b403d14c",
-                "shasum": ""
-            },
-            "require": {
-                "asyncphp/doorman": "~1.2",
-                "silverstripe/framework": "~3.1",
-                "symbiote/silverstripe-multivaluefield": "~2.0"
-            },
             "replace": {
-                "silverstripe/queuedjobs": "self.version"
+                "ajshort/silverstripe-gridfieldextensions": "self.version",
+                "silverstripe-australia/gridfieldextensions": "self.version"
             },
             "type": "silverstripe-module",
             "extra": {
-                "installer-name": "queuedjobs"
+                "installer-name": "gridfieldextensions",
+                "screenshots": [
+                    "docs/en/_images/editable-rows.png",
+                    "docs/en/_images/add-existing-search.png"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3184,8 +3054,104 @@
                     "email": "marcus@silverstripe.com.au"
                 },
                 {
+                    "name": "Andrew Short",
+                    "email": "andrewjshort@gmail.com"
+                }
+            ],
+            "description": "A collection of useful grid field components",
+            "homepage": "http://github.com/silverstripe-australia/silverstripe-gridfieldextensions",
+            "keywords": [
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2018-11-14T12:54:51+00:00"
+        },
+        {
+            "name": "symbiote/silverstripe-multivaluefield",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symbiote/silverstripe-multivaluefield.git",
+                "reference": "4a2c61bc3d900670da385b1dbd4b13453426fecf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-multivaluefield/zipball/4a2c61bc3d900670da385b1dbd4b13453426fecf",
+                "reference": "4a2c61bc3d900670da385b1dbd4b13453426fecf",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "replace": {
+                "silverstripe/multivaluefield": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "multivaluefield",
+                "branch-alias": {
+                    "3.x-dev": "3.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@symbiote.com.au"
+                }
+            ],
+            "description": "A DB field + form fields for storing multiple values in a single property (serialized).",
+            "keywords": [
+                "dbfield",
+                "formfield",
+                "silverstripe"
+            ],
+            "time": "2018-12-13T22:03:00+00:00"
+        },
+        {
+            "name": "symbiote/silverstripe-queuedjobs",
+            "version": "3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symbiote/silverstripe-queuedjobs.git",
+                "reference": "4ab50eeef38987afaf838928332ea39e931f41a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symbiote/silverstripe-queuedjobs/zipball/4ab50eeef38987afaf838928332ea39e931f41a0",
+                "reference": "4ab50eeef38987afaf838928332ea39e931f41a0",
+                "shasum": ""
+            },
+            "require": {
+                "asyncphp/doorman": "^1.2",
+                "silverstripe/framework": "^3.1",
+                "symbiote/silverstripe-multivaluefield": "^3.0"
+            },
+            "replace": {
+                "silverstripe/queuedjobs": "self.version"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "queuedjobs",
+                "branch-alias": {
+                    "3.x-dev": "3.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
                     "name": "Damian Mooyman",
                     "email": "damian@silverstripe.com"
+                },
+                {
+                    "name": "Marcus Nyeholt",
+                    "email": "marcus@symbiote.com.au"
                 }
             ],
             "description": "A framework for defining and running background jobs in a queued manner",
@@ -3193,7 +3159,7 @@
                 "jobs",
                 "silverstripe"
             ],
-            "time": "2019-02-18T04:18:29+00:00"
+            "time": "2019-01-26T13:20:37+00:00"
         },
         {
             "name": "thisisbd/silverstripe-maintenance-mode",
