@@ -1,6 +1,6 @@
 CommentingController:
   extensions:
-    - 'CommentControllerExtension'
+    - CommentControllerExtension
   required_fields:
-    - 'Name'
-    - 'Email'
+    - Name
+    - SilverStripe\Control\Email\Email

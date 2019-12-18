@@ -31,11 +31,11 @@ $Header
 		</div>
 	<% end_if %>
 
-	$BlockArea(BeforeContent)
+	$BeforeContent
 
 	<div class="row">
 		<article role="main" class="main-content main-content--with-padding <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-			$BlockArea(BeforeContentConstrained)
+			$BeforeContentConstrained
 			<div class="main-content__text">
 				<% if $FeaturedImage %>
 					<% if FeaturedImage.Width >= 700 && FeaturedImage.Width < 1200 %>
@@ -66,7 +66,7 @@ $Header
 					<% end_if %>
 					$CommentsForm
 				</div>
-				$BlockArea(AfterContentConstrained)
+				$AfterContentConstrained
 
 				<% include TagsCategories %>
 
@@ -79,10 +79,10 @@ $Header
 			<% if $SideBarView %>
 				$SideBarView
 			<% end_if %>
-			$BlockArea(Sidebar)
+			$Sidebar
 		</aside>
 	</div>
-	$BlockArea(AfterContent)
+	$AfterContent
 </main>
 
 <% if $RelatedNewsEntries %>
