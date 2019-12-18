@@ -10,7 +10,7 @@
 			<% loop $Menu(1) %>
 			<li class="<% if URLSegment == "home" %>show-for-medium<% end_if %> nav__item nav__item--{$Top.DarkLight} <% if $FirstLast %>nav__item--$FirstLast<% end_if %><% if $Children %> nav__item--parent<% end_if %> nav__item--{$LinkOrCurrent} nav__item--{$LinkOrSection}">
 				<a id="nav-$Pos" class="nav__link nav__link--{$Top.DarkLight}<% if $Children %> nav__link--parent<% end_if %>" href="$Link"><% if $URLSegment == "home" %>
-					<img src="{$ThemeDir}/src/images/epx-logo.png" width="240" class="nav__logo" alt="Home" />
+					<img src="{$ThemeDir}/dist/images/epx-logo.png" width="240" class="nav__logo" alt="Home" />
 				<% else %>$MenuTitle<% end_if %></a>
 				<% if $Children %>
 					<button aria-hidden="true" class="second-level--open" aria-controls="subnav-$Pos" aria-expanded="false"><span class="show-for-sr">expand</span><svg class="dropdownarrow" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.4 8.8"><path d="M12.8,0l1.6,1.6L7.2,8.8,0,1.6,1.7,0,7.3,5.6Z" transform="translate(0 0)"></path></svg></button>
