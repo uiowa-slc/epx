@@ -1,3 +1,46 @@
+.homepage__header .header__container {
+	background: #161514;
+
+}
+
+
+.header__container--dark-header{
+	background: #161514;
+}
+
+.nav__logo{
+	width: rem-calc(110);
+	margin-bottom: rem-calc(0);
+}
+.nav__link--search{
+		display: block;
+		line-height: inherit;
+	
+}
+
+.nav__link--dark-header:hover{
+	text-decoration: none;
+}
+.nav__item--dark-header:hover>a{
+	background: #161514;
+	color: white;
+}
+.subnav{
+	
+}
+
+.site-search__icon{
+	@include breakpoint(large) {
+		height: rem-calc(73);
+		top: 0;
+		right: 0;
+	}
+}
+
+.nav__menu-text{
+	font-size: rem-calc(14);
+}
+
 .footer-logo-area {
 	border-top: 1px solid #ddd;
 	padding: 20px 0;
