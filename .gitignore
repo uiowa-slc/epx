@@ -16,3 +16,4 @@ smtp.yml
 /npm-debug.log
 /cache
 /public/_resources/
+/.phpintel
