@@ -4,7 +4,7 @@
     "description": "The SilverStripe Framework Installer",
     "require": {
         "php": ">=5.6.0",
-        "md/division-project": "2.*",
+        "md/division-project": "3.*",
         "silverstripe/mathspamprotection": "dev-master"
     },
     "require-dev": {
@@ -62,17 +62,13 @@
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events"
         },
-        "5": {
-            "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-flickr"
-        },
         "6": {
             "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml"
         },
-        "repo-name": {
+        "7": {
             "type": "vcs",
-            "url": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper"
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-migration-tools"
         }
     },
     "config": {
